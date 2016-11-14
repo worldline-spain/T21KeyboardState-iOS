@@ -15,6 +15,7 @@
 		B98708DC1DD4C68C00C38022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98708DA1DD4C68C00C38022 /* LaunchScreen.storyboard */; };
 		B98708E71DD4C68D00C38022 /* T21KeyboardStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98708E61DD4C68D00C38022 /* T21KeyboardStateTests.swift */; };
 		B98708F31DD4CD8100C38022 /* T21KeyboardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98708F21DD4CD8100C38022 /* T21KeyboardState.swift */; };
+		B9C51B091DD9F9CF00018D73 /* T21KeyboardState.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B9C51B081DD9F9CF00018D73 /* T21KeyboardState.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		B98708E61DD4C68D00C38022 /* T21KeyboardStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T21KeyboardStateTests.swift; sourceTree = "<group>"; };
 		B98708E81DD4C68D00C38022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B98708F21DD4CD8100C38022 /* T21KeyboardState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T21KeyboardState.swift; sourceTree = "<group>"; };
+		B9C51B081DD9F9CF00018D73 /* T21KeyboardState.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T21KeyboardState.podspec; sourceTree = "<group>"; };
 		BE068628BC438FCFD9A6F163 /* Pods_T21KeyboardState.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T21KeyboardState.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F5CC48AFB7B2E5EF6FC2C1 /* Pods-T21KeyboardState.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21KeyboardState.release.xcconfig"; path = "Pods/Target Support Files/Pods-T21KeyboardState/Pods-T21KeyboardState.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +85,7 @@
 		B98708C51DD4C68C00C38022 = {
 			isa = PBXGroup;
 			children = (
+				B9C51B081DD9F9CF00018D73 /* T21KeyboardState.podspec */,
 				B98708F11DD4C6AC00C38022 /* src */,
 				B98708D01DD4C68C00C38022 /* T21KeyboardState */,
 				B98708E51DD4C68D00C38022 /* T21KeyboardStateTests */,
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B98708DC1DD4C68C00C38022 /* LaunchScreen.storyboard in Resources */,
+				B9C51B091DD9F9CF00018D73 /* T21KeyboardState.podspec in Resources */,
 				B98708D91DD4C68C00C38022 /* Assets.xcassets in Resources */,
 				B98708D71DD4C68C00C38022 /* Main.storyboard in Resources */,
 			);
@@ -501,6 +505,7 @@
 				B98708ED1DD4C68D00C38022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B98708EE1DD4C68D00C38022 /* Build configuration list for PBXNativeTarget "T21KeyboardStateTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +514,7 @@
 				B98708F01DD4C68D00C38022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
