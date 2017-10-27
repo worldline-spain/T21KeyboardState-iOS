@@ -33,20 +33,20 @@ class ViewController: UIViewController, T21KeyboardNotifications {
     }
     
     func keyboardDidChange() {
-        let shown = T21KeyboardState.sharedInstance.isKeyboardShown
-        let size = T21KeyboardState.sharedInstance.keyboardSize
+        _ = T21KeyboardState.sharedInstance.isKeyboardShown
+        _ = T21KeyboardState.sharedInstance.keyboardSize
         NSLog("keyboardDidChange")
     }
     
     func keyboardDidShow() {
-        let shown = T21KeyboardState.sharedInstance.isKeyboardShown
-        let size = T21KeyboardState.sharedInstance.keyboardSize
+        _ = T21KeyboardState.sharedInstance.isKeyboardShown
+        _ = T21KeyboardState.sharedInstance.keyboardSize
         NSLog("keyboardDidShow")
     }
     
     func keyboardDidHide() {
-        let shown = T21KeyboardState.sharedInstance.isKeyboardShown
-        let size = T21KeyboardState.sharedInstance.keyboardSize
+        _ = T21KeyboardState.sharedInstance.isKeyboardShown
+        _ = T21KeyboardState.sharedInstance.keyboardSize
         NSLog("keyboardDidHide")
     }
 
