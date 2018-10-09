@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.dependency "T21Notifier" , "~>1.0"
   s.homepage = "https://github.com/worldline-spain/T21KeyboardState-iOS"
   s.license = "https://github.com/worldline-spain/T21KeyboardState-iOS/blob/master/LICENSE"
-
+  s.swift_version = '4.2'
 end
