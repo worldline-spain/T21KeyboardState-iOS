@@ -33,3 +33,7 @@ Package.resolved
 
 #svn
 .svn
+
+#Carthage
+Carthage
+Cartfile.resolved
