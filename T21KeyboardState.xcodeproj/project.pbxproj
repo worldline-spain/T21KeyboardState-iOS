@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F916D9622B27F00001B250C /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F916D9522B27F00001B250C /* Package.swift */; };
 		95C525843DFF46EF68A7DD5B /* Pods_T21KeyboardState.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE068628BC438FCFD9A6F163 /* Pods_T21KeyboardState.framework */; };
 		B98708D21DD4C68C00C38022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98708D11DD4C68C00C38022 /* AppDelegate.swift */; };
 		B98708D41DD4C68C00C38022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98708D31DD4C68C00C38022 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F916D9522B27F00001B250C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		B1C0F24A360A959439EA8C6A /* Pods-T21KeyboardState.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21KeyboardState.debug.xcconfig"; path = "Pods/Target Support Files/Pods-T21KeyboardState/Pods-T21KeyboardState.debug.xcconfig"; sourceTree = "<group>"; };
 		B98708CE1DD4C68C00C38022 /* T21KeyboardState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21KeyboardState.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98708D11DD4C68C00C38022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		B98708C51DD4C68C00C38022 = {
 			isa = PBXGroup;
 			children = (
+				3F916D9522B27F00001B250C /* Package.swift */,
 				B9C51B081DD9F9CF00018D73 /* T21KeyboardState.podspec */,
 				B98708F11DD4C6AC00C38022 /* src */,
 				B98708D01DD4C68C00C38022 /* T21KeyboardState */,
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F916D9622B27F00001B250C /* Package.swift in Sources */,
 				B98708D41DD4C68C00C38022 /* ViewController.swift in Sources */,
 				B98708D21DD4C68C00C38022 /* AppDelegate.swift in Sources */,
 				B98708F31DD4CD8100C38022 /* T21KeyboardState.swift in Sources */,
