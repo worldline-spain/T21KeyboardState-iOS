@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95C525843DFF46EF68A7DD5B /* Pods_T21KeyboardState.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE068628BC438FCFD9A6F163 /* Pods_T21KeyboardState.framework */; };
+		3F916D9622B27F00001B250C /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F916D9522B27F00001B250C /* Package.swift */; };
+		9EF1323E22B388AF00602743 /* T21KeyboardStateSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF1323C22B388AF00602743 /* T21KeyboardStateSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EF1324122B388AF00602743 /* T21KeyboardStateSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF1323A22B388AF00602743 /* T21KeyboardStateSwift.framework */; };
+		9EF1324222B388AF00602743 /* T21KeyboardStateSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF1323A22B388AF00602743 /* T21KeyboardStateSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9EF1324722B388B900602743 /* T21KeyboardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98708F21DD4CD8100C38022 /* T21KeyboardState.swift */; };
+		9EF1324A22B3891300602743 /* T21Notifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF1324922B3891300602743 /* T21Notifier.framework */; };
+		9EF1324E22B389F600602743 /* T21Notifier.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9EF1324922B3891300602743 /* T21Notifier.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9EF1324F22B38A1500602743 /* T21Notifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF1324922B3891300602743 /* T21Notifier.framework */; };
 		B98708D21DD4C68C00C38022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98708D11DD4C68C00C38022 /* AppDelegate.swift */; };
 		B98708D41DD4C68C00C38022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98708D31DD4C68C00C38022 /* ViewController.swift */; };
 		B98708D71DD4C68C00C38022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98708D51DD4C68C00C38022 /* Main.storyboard */; };
@@ -19,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9EF1323F22B388AF00602743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B98708C61DD4C68C00C38022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EF1323922B388AF00602743;
+			remoteInfo = T21KeyboardStateSwift;
+		};
 		B98708E31DD4C68D00C38022 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B98708C61DD4C68C00C38022 /* Project object */;
@@ -28,8 +42,45 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9EF1324622B388AF00602743 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9EF1324222B388AF00602743 /* T21KeyboardStateSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF1324B22B3899F00602743 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF1324D22B389EE00602743 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9EF1324E22B389F600602743 /* T21Notifier.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B1C0F24A360A959439EA8C6A /* Pods-T21KeyboardState.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21KeyboardState.debug.xcconfig"; path = "Pods/Target Support Files/Pods-T21KeyboardState/Pods-T21KeyboardState.debug.xcconfig"; sourceTree = "<group>"; };
+		3F916D9522B27F00001B250C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		9EF1323A22B388AF00602743 /* T21KeyboardStateSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = T21KeyboardStateSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EF1323C22B388AF00602743 /* T21KeyboardStateSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T21KeyboardStateSwift.h; sourceTree = "<group>"; };
+		9EF1323D22B388AF00602743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF1324922B3891300602743 /* T21Notifier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = T21Notifier.framework; path = Carthage/Build/iOS/T21Notifier.framework; sourceTree = "<group>"; };
 		B98708CE1DD4C68C00C38022 /* T21KeyboardState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21KeyboardState.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98708D11DD4C68C00C38022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B98708D31DD4C68C00C38022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,16 +93,23 @@
 		B98708E81DD4C68D00C38022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B98708F21DD4CD8100C38022 /* T21KeyboardState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T21KeyboardState.swift; sourceTree = "<group>"; };
 		B9C51B081DD9F9CF00018D73 /* T21KeyboardState.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T21KeyboardState.podspec; sourceTree = "<group>"; };
-		BE068628BC438FCFD9A6F163 /* Pods_T21KeyboardState.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T21KeyboardState.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5F5CC48AFB7B2E5EF6FC2C1 /* Pods-T21KeyboardState.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21KeyboardState.release.xcconfig"; path = "Pods/Target Support Files/Pods-T21KeyboardState/Pods-T21KeyboardState.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9EF1323722B388AF00602743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EF1324A22B3891300602743 /* T21Notifier.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B98708CB1DD4C68C00C38022 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95C525843DFF46EF68A7DD5B /* Pods_T21KeyboardState.framework in Frameworks */,
+				9EF1324F22B38A1500602743 /* T21Notifier.framework in Frameworks */,
+				9EF1324122B388AF00602743 /* T21KeyboardStateSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,19 +123,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1063EB60DAF1347A389731B6 /* Pods */ = {
+		9EF1323B22B388AF00602743 /* T21KeyboardStateSwift */ = {
 			isa = PBXGroup;
 			children = (
-				B1C0F24A360A959439EA8C6A /* Pods-T21KeyboardState.debug.xcconfig */,
-				F5F5CC48AFB7B2E5EF6FC2C1 /* Pods-T21KeyboardState.release.xcconfig */,
+				9EF1323C22B388AF00602743 /* T21KeyboardStateSwift.h */,
+				9EF1323D22B388AF00602743 /* Info.plist */,
 			);
-			name = Pods;
+			path = T21KeyboardStateSwift;
 			sourceTree = "<group>";
 		};
-		49536D236E9FECA90BB62297 /* Frameworks */ = {
+		9EF1324822B3891300602743 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BE068628BC438FCFD9A6F163 /* Pods_T21KeyboardState.framework */,
+				9EF1324922B3891300602743 /* T21Notifier.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,13 +143,14 @@
 		B98708C51DD4C68C00C38022 = {
 			isa = PBXGroup;
 			children = (
+				3F916D9522B27F00001B250C /* Package.swift */,
 				B9C51B081DD9F9CF00018D73 /* T21KeyboardState.podspec */,
 				B98708F11DD4C6AC00C38022 /* src */,
 				B98708D01DD4C68C00C38022 /* T21KeyboardState */,
 				B98708E51DD4C68D00C38022 /* T21KeyboardStateTests */,
+				9EF1323B22B388AF00602743 /* T21KeyboardStateSwift */,
 				B98708CF1DD4C68C00C38022 /* Products */,
-				1063EB60DAF1347A389731B6 /* Pods */,
-				49536D236E9FECA90BB62297 /* Frameworks */,
+				9EF1324822B3891300602743 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +159,7 @@
 			children = (
 				B98708CE1DD4C68C00C38022 /* T21KeyboardState.app */,
 				B98708E21DD4C68D00C38022 /* T21KeyboardStateTests.xctest */,
+				9EF1323A22B388AF00602743 /* T21KeyboardStateSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,20 +196,51 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		9EF1323522B388AF00602743 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EF1323E22B388AF00602743 /* T21KeyboardStateSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		B98708CD1DD4C68C00C38022 /* T21KeyboardState */ = {
+		9EF1323922B388AF00602743 /* T21KeyboardStateSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B98708EB1DD4C68D00C38022 /* Build configuration list for PBXNativeTarget "T21KeyboardState" */;
+			buildConfigurationList = 9EF1324522B388AF00602743 /* Build configuration list for PBXNativeTarget "T21KeyboardStateSwift" */;
 			buildPhases = (
-				5726449479A67C81F40C63F9 /* [CP] Check Pods Manifest.lock */,
-				B98708CA1DD4C68C00C38022 /* Sources */,
-				B98708CB1DD4C68C00C38022 /* Frameworks */,
-				B98708CC1DD4C68C00C38022 /* Resources */,
-				C55D9D5201C0FF47870039D3 /* [CP] Embed Pods Frameworks */,
+				9EF1323522B388AF00602743 /* Headers */,
+				9EF1323622B388AF00602743 /* Sources */,
+				9EF1323722B388AF00602743 /* Frameworks */,
+				9EF1323822B388AF00602743 /* Resources */,
+				9EF1324B22B3899F00602743 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = T21KeyboardStateSwift;
+			productName = T21KeyboardStateSwift;
+			productReference = 9EF1323A22B388AF00602743 /* T21KeyboardStateSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B98708CD1DD4C68C00C38022 /* T21KeyboardState */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B98708EB1DD4C68D00C38022 /* Build configuration list for PBXNativeTarget "T21KeyboardState" */;
+			buildPhases = (
+				B98708CA1DD4C68C00C38022 /* Sources */,
+				B98708CB1DD4C68C00C38022 /* Frameworks */,
+				B98708CC1DD4C68C00C38022 /* Resources */,
+				9EF1324622B388AF00602743 /* Embed Frameworks */,
+				9EF1324D22B389EE00602743 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EF1324022B388AF00602743 /* PBXTargetDependency */,
 			);
 			name = T21KeyboardState;
 			productName = T21KeyboardState;
@@ -181,17 +272,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = Worldline;
 				TargetAttributes = {
+					9EF1323922B388AF00602743 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = C2UZU6ZLJE;
+						ProvisioningStyle = Automatic;
+					};
 					B98708CD1DD4C68C00C38022 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = C2UZU6ZLJE;
+						LastSwiftMigration = 1100;
 						ProvisioningStyle = Automatic;
 					};
 					B98708E11DD4C68D00C38022 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = C2UZU6ZLJE;
+						LastSwiftMigration = 1100;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B98708CD1DD4C68C00C38022;
 					};
@@ -199,7 +297,7 @@
 			};
 			buildConfigurationList = B98708C91DD4C68C00C38022 /* Build configuration list for PBXProject "T21KeyboardState" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -212,11 +310,19 @@
 			targets = (
 				B98708CD1DD4C68C00C38022 /* T21KeyboardState */,
 				B98708E11DD4C68D00C38022 /* T21KeyboardStateTests */,
+				9EF1323922B388AF00602743 /* T21KeyboardStateSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9EF1323822B388AF00602743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B98708CC1DD4C68C00C38022 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -237,50 +343,20 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		5726449479A67C81F40C63F9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-T21KeyboardState-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C55D9D5201C0FF47870039D3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-T21KeyboardState/Pods-T21KeyboardState-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/T21Notifier/T21Notifier.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/T21Notifier.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-T21KeyboardState/Pods-T21KeyboardState-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
+		9EF1323622B388AF00602743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EF1324722B388B900602743 /* T21KeyboardState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B98708CA1DD4C68C00C38022 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F916D9622B27F00001B250C /* Package.swift in Sources */,
 				B98708D41DD4C68C00C38022 /* ViewController.swift in Sources */,
 				B98708D21DD4C68C00C38022 /* AppDelegate.swift in Sources */,
 				B98708F31DD4CD8100C38022 /* T21KeyboardState.swift in Sources */,
@@ -298,6 +374,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9EF1324022B388AF00602743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EF1323922B388AF00602743 /* T21KeyboardStateSwift */;
+			targetProxy = 9EF1323F22B388AF00602743 /* PBXContainerItemProxy */;
+		};
 		B98708E41DD4C68D00C38022 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B98708CD1DD4C68C00C38022 /* T21KeyboardState */;
@@ -325,10 +406,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9EF1324322B388AF00602743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = T21KeyboardStateSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21KeyboardStateSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EF1324422B388AF00602743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = T21KeyboardStateSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21KeyboardStateSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B98708E91DD4C68D00C38022 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -388,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -438,29 +592,39 @@
 		};
 		B98708EC1DD4C68D00C38022 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1C0F24A360A959439EA8C6A /* Pods-T21KeyboardState.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = T21KeyboardState/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21KeyboardState;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		B98708ED1DD4C68D00C38022 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5F5CC48AFB7B2E5EF6FC2C1 /* Pods-T21KeyboardState.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = T21KeyboardState/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21KeyboardState;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -474,7 +638,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21KeyboardStateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T21KeyboardState.app/T21KeyboardState";
 			};
 			name = Debug;
@@ -489,7 +653,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21KeyboardStateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T21KeyboardState.app/T21KeyboardState";
 			};
 			name = Release;
@@ -497,6 +661,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9EF1324522B388AF00602743 /* Build configuration list for PBXNativeTarget "T21KeyboardStateSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EF1324322B388AF00602743 /* Debug */,
+				9EF1324422B388AF00602743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B98708C91DD4C68C00C38022 /* Build configuration list for PBXProject "T21KeyboardState" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
